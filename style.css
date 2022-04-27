@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.float-left{
+    float: left;
+}
+
+/* main coading start here */
+
+.header-section{
+    padding: 10px 0px;
+    background-color: black;
+    height: 54px;
+    line-height: 54px;
+}
+/* header left */
+.header-section .logo{
+    width: 30%;
+    
+}
+
+.header-section .logo img{
+    width: 100px;
+}
+
+/* header right */
+.header-section .primary-menu{
+    width: 70%;
+}
+.header-section .primary-menu ul{
+    list-style-type: none;
+}
+
+.header-section .primary-menu ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.header-section .primary-menu ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.primary-menu i{
+    color: white;
+}
+.header-section .primary-menu ul li:hover ul{
+    text-decoration: underline;
+    transition: 1s;
+    opacity: 1;
+    
+}
+.primary-menu ul li{
+    position: relative;
+}
+
+.primary-menu ul li ul{
+    position: absolute;
+    width: 220px;
+    background-color: black;
+    list-style-type: none;
+    opacity: 0;
+    text-align: center;
+    padding: 0px !important;
+}
+.primary-menu ul li ul li{
+    width: 100%;
+    display: block;
+}
+.primary-menu ul li ul li:hover{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.primary-menu ul li ul li:hover a{
+    color: black;
+
+}
+.primary-menu ul li ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px !important;
+}
+
+/* Bannaer section */
+
+.banner-section{
+
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+}
+.banner-section h1{
+    text-align: left !important;
+    font-size: 31px;
+}
+.banner-section h3{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-align: left;
+}
+.banner-section p{}
+.banner-section .button{
+    padding: 20px 0px;
+}
+.banner-section .button1{
+    height: 50px;
+    padding: 0px 30px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.banner-section .b2{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+/* banner section end */
+
+/* about me section start */
+
+.about-me-section{
+    padding: 50px 50px;
+    background-color: #277004a8;
+    height: 265px;
+
+}
+.about-me-section h1{
+    text-align: center;
+    /* text-decoration: underline; */
+    color: white;
+}
+.about-me-section .left-side{
+    width: 50%;
+}
+.about-me-section .left-side p{
+    padding: 62px;
+    font-size: 18px;
+    font-family: auto;
+    color:white;
+}
+.about-me-section .right-side{
+    width: 50%;
+}
+
+.about-me-section .right-side img{
+    width: 204px;
+    padding: 38px;
+}
+
+/* about me section end */
+
+/* service section start*/
+
+.service-section{
+    padding: 50px 0px;
+    background-color: #556d60;;
+    
+}
+.service-section .service-content{
+    text-align: center;
+}
+.service-section .service-content h1{
+    font-size: 40px;
+    padding: 5px 0px;
+    color: white;
+}
+.service-section .service-content h3{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: fangsong;
+    padding: 10px 0px;
+    color: white;
+}
+.service-section .service-content p{
+    width: 566px;
+    margin: auto;
+    font-size: 17px;
+    color: white;
+}
+
+.service-section .card-section{
+    padding: 30px 0px;
+    text-align: center;
+}
+.service-section .card-section .card1{
+    width: 28%;
+    box-shadow: 0px 0px 9px 0px black;
+    height: 180px;
+    padding: 20px 10px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: white;
+}
+.service-section .card-section .card1 .card-left{
+    width: 15%;
+}
+.service-section .card-section .card1 .card-left i{
+    font-size: 30px;
+    color: green;
+    padding: 0px 2px;
+}
+.service-section .card-section .card1 .card-right{
+    width: 80%;
+}
+.service-section .card-section .card1 .card-right h3{
+   font-size: 25px;
+   padding-bottom: 10px;
+   text-align: left;
+}
+.service-section .card-section .card1 .card-right p{
+    width: 100%;
+    text-align: justify;
+}
+/* service section end*/
+
+
+/* checkout  section */
+
+.checkout-section{
+    background-color: #669b66e3;
+    padding: 40px 0px;
+}
+
+.checkout-text {
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+.checkout-section .checkout-content1{
+    text-align: center; 
+    
+ }
+ 
+.checkout-section .checkout-content1 .content-1{
+    height: 380px;
+    width: 30%;
+    border: 1px solid rgb(255, 255, 255);
+    /* background-color: aquamarine; */
+    display: inline-block;
+    margin:20px 10px;
+
+}
+
+.checkout-section .checkout-content1 .content-1 img{
+    width: 100%;
+}
+.checkout-section .checkout-content1 .content-1 p,h3{
+    
+    padding-top: 15px;
+    text-align: center;
+}
+
+.checkout-section .checkout-text p,h1{
+
+    padding: 10px 0px;
+}
+
+.checkout-section .content-images {
+    text-align: center;
+}
+.checkout-section .content-images .img1{
+    display: inline-block;
+    width: 177px;
+    margin: 0px 10px;
+}
+
+.checkout-section .content-images .img1 img{
+   width: 100%;
+}
+
+.team-member-section{
+    text-align: center;
+    padding: 15px 0x;
+    background-color: rgb(2, 79, 2);
+    color: white;
+}
+
+.team-member-section h2{
+    padding: 20px 0px;
+}
+
+hr{
+    color: white;
+    height: 2px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 23px;
+}
+
+.team-member-section .members{
+    padding: 20px 0px;
+}
+.team-member-section .member1-section{
+   width: 20%;  
+   display: inline-block;
+}
+.team-member-section .member1-section img{
+   width: 100%;
+}
+.team-member-section .member1-section .icon{
+   text-align: center;
+}
+.team-member-section .member1-section i{
+    font-size: 25px;
+    padding: 20px 10px;
+    
+}
+
+
+
+.upper-footer-section{
+    background-color: rgba(69, 91, 69, 0.795);
+    padding: 50px 0px;
+}
+
+.upper-footer-section h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding:10px 0px;
+}
+.upper-footer-section p{
+    width: 550px;
+    margin: auto;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    font-family: sans-serif;
+    padding:10px 0px;
+}
+
+.upper-footer-section .button{
+    background-color: #14bea0;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 12%;
+    margin: auto;
+    padding: 8px 14px;
+    line-height: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 15px 0px;
+    text-align: center;
+}
